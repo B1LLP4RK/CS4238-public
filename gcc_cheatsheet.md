@@ -1,7 +1,7 @@
 # GCC cheatsheet for reverse engineering
 
 - `help`
-  - fucking read it
+  - please read it, essential as a starting point
   - use `help command` for any command help messages
 - `x`
   - must see help file for helpful options with `help x`
@@ -10,7 +10,7 @@
   - can access registers with `x $rbp`
 
 - `print`
-  - serves different purpose than `x`
+  - similar but serves different purpose than `x`
   - can see addresses of variables
 
 - `layout asm`
@@ -25,9 +25,17 @@
 - `run`
 - `continue`
 - `info b`
+  - based on the branch numbers, to `disable number` or `enable number`
+- `info locals`
+  - shows local variables
 - `next`
   - executes next line of c code
 - `ni`
   - executes next line of assembly code
 - `step`
   - step into the function
+
+> [!IMPORTANT]
+> At certain point, the python package pwntools is required for
+> feeding in non-ascii bytes to executable binaries. For more information
+> go to [CTF-haven](https://github.com/B1LLP4RK/CTF-haven.git) 
