@@ -38,4 +38,4 @@
 > [!IMPORTANT]
 > At certain point, the python package pwntools is required for
 > feeding in non-ascii bytes to executable binaries. For more information
-> go to [CTF-haven](https://github.com/B1LLP4RK/CTF-haven.git) 
+> go to [CTF-haven](https://github.com/B1LLP4RK/CTF-haven.git)
